@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "63b3",
+      "username": "pronoy",
+      "password": "1234",
+      "email": "p@gmail.com"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "6c9e",
+      "title": "meat40",
+      "ingredient": "meat,onion",
+      "instruction": "dadada",
+      "time": "40",
+      "url": "https://res.cloudinary.com/dx3et17af/image/upload/v1730273021/meatVendor_wzxqvu.avif",
+      "userId": "63b3",
+      "category": "Vegan",
+      "review": [
+        {
+          "userId": "pronoy",
+          "rating": [
+            3
+          ],
+          "comment": [
+            "not so great"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f7b7",
+      "title": "vege5",
+      "ingredient": "dad,dad,adad",
+      "instruction": "dadadad",
+      "time": "15",
+      "url": "https://res.cloudinary.com/dx3et17af/image/upload/v1730277258/vegetables-and-fruits-farmers-market_alyuit.webp",
+      "userId": "63b3",
+      "category": "Dessert",
+      "review": [
+        {
+          "userId": "pronoy",
+          "rating": [
+            5
+          ],
+          "comment": [
+            "good food"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6526",
+      "title": "BurgerKing",
+      "ingredient": "bun,sauce,meat",
+      "instruction": "cook for 30 mins",
+      "time": "30",
+      "url": "https://res.cloudinary.com/dx3et17af/image/upload/v1731416926/BigBurger_t46un9.webp",
+      "userId": "63b3",
+      "category": "Vegan"
+    },
+    {
+      "id": "cb46",
+      "title": "HomePizza",
+      "ingredient": "flour,sauce,onion etc.",
+      "instruction": "cook for 45 mins",
+      "time": "40",
+      "url": "https://res.cloudinary.com/dx3et17af/image/upload/v1731417019/pizza_tuna-olive_t3pona.jpg",
+      "category": "Vegan",
+      "userId": "63b3"
+    }
+  ],
+  "favourites": [
+    {
+      "id": "5647",
+      "recipeId": "6c9e",
+      "userId": "63b3"
+    },
+    {
+      "id": "0ad3",
+      "recipeId": "6526",
+      "userId": "63b3"
+    }
+  ]
+}
